@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Krishna Dave - full-stack developer, GSoC contributor, Apache Mahout committer, and AI-focused computer science student."
+    />
+    <title>Krishna Dave - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Syne:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://unpkg.com/three@0.166.1/build/three.module.js"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div class="cursor-glow" aria-hidden="true"></div>
+    <canvas id="space" aria-hidden="true"></canvas>
+
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Krishna Dave home">
+        <span>KD</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="#work">Work</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero section">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Full-stack developer - AI student - Open-source committer</p>
+          <h1>Krishna Dave builds software for open-source communities and real users.</h1>
+          <p class="hero-text">
+            GSoC 2025 contributor turned Apache Mahout committer, with hands-on work across
+            React, Node.js, TypeScript, MongoDB, ML products, and documentation systems that
+            help open-source projects scale.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#projects">View projects</a>
+            <a class="button ghost" href="mailto:krishnadave829@gmail.com">Email me</a>
+          </div>
+        </div>
+
+        <aside class="hero-panel reveal" data-delay="120" aria-label="Career highlights">
+          <div class="orbital-card">
+            <span class="status-dot"></span>
+            <p class="panel-label">Current signal</p>
+            <h2>Apache Mahout Committer</h2>
+            <p>
+              Selected for Google Summer of Code 2025 and promoted by PMC members after
+              contributing to the project ecosystem.
+            </p>
+          </div>
+          <div class="metrics">
+            <div>
+              <strong>600+</strong>
+              <span>DSA problems</span>
+            </div>
+            <div>
+              <strong>200+</strong>
+              <span>docs restructured</span>
+            </div>
+            <div>
+              <strong>Top 5</strong>
+              <span>GDG UI/UX hackathon</span>
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <section class="marquee" aria-label="Core technologies">
+        <div class="marquee-track">
+          <span>React</span>
+          <span>TypeScript</span>
+          <span>Node.js</span>
+          <span>Express</span>
+          <span>MongoDB</span>
+          <span>Python</span>
+          <span>GROQ API</span>
+          <span>Tailwind CSS</span>
+          <span>Apache Mahout</span>
+          <span>Open Source</span>
+        </div>
+      </section>
+
+      <section id="work" class="section split">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Experience</p>
+          <h2>Open-source work with visible product impact.</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <span class="timeline-date">May 2025 - Sep 2025</span>
+            <h3>Google Summer of Code Contributor to Committer</h3>
+            <p class="muted">Apache Software Foundation - Remote</p>
+            <p>
+              Reworked Apache Mahout documentation architecture, fixed broken routes, created
+              quantum computing navigation paths, and helped coordinate contributor syncs across
+              timezones.
+            </p>
+          </article>
+          <article class="timeline-item reveal">
+            <span class="timeline-date">Aug 2024 - May 2028</span>
+            <h3>B.Tech in Computer Science, Artificial Intelligence</h3>
+            <p class="muted">Newton School of Technology, Rishihood University - Delhi NCR</p>
+            <p>
+              Building a foundation in computer science, AI, product engineering, and applied
+              software systems while shipping public projects.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="section-heading centered reveal">
+          <p class="eyebrow">Selected projects</p>
+          <h2>Products with thoughtful flows, safety, and intelligence.</h2>
+        </div>
+        <div class="project-grid">
+          <article class="project-card reveal">
+            <div class="project-visual hush">
+              <span></span><span></span><span></span>
+            </div>
+            <div class="project-body">
+              <p class="project-meta">TypeScript - Google Maps API - Tailwind CSS</p>
+              <h3>Hush</h3>
+              <p>
+                A location-based social discovery platform where users verify physical presence
+                through QR check-ins before entering anonymous venue-scoped interactions.
+              </p>
+              <ul>
+                <li>Interactive venue discovery with Google Maps APIs.</li>
+                <li>Anonymous messaging, reveal requests, and instant blocking.</li>
+                <li>Safety-first flows for real-world social spaces.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-delay="100">
+            <div class="project-visual health">
+              <span></span><span></span><span></span>
+            </div>
+            <div class="project-body">
+              <p class="project-meta">Python - React - GROQ API - ML Classification</p>
+              <h3>Heart Disease Risk Platform</h3>
+              <p>
+                A full-stack health risk tool that predicts heart disease probability from patient
+                inputs and translates model output into natural-language guidance.
+              </p>
+              <ul>
+                <li>Trained and validated a classification model on structured medical data.</li>
+                <li>Rendered responsive clinical insights for patient-facing workflows.</li>
+                <li>Used GROQ API for clear diagnostic explanations.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="skills" class="section skills-section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Technical stack</p>
+          <h2>Comfortable from interface polish to backend plumbing.</h2>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card reveal">
+            <h3>Languages</h3>
+            <p>Python, JavaScript, TypeScript, HTML/CSS, SQL</p>
+          </article>
+          <article class="skill-card reveal" data-delay="80">
+            <h3>Frontend</h3>
+            <p>React, Next.js, Tailwind CSS, responsive interaction design</p>
+          </article>
+          <article class="skill-card reveal" data-delay="160">
+            <h3>Backend</h3>
+            <p>Node.js, Express.js, MongoDB, API design, auth-ready workflows</p>
+          </article>
+          <article class="skill-card reveal" data-delay="240">
+            <h3>Tools</h3>
+            <p>Git, GitHub, Docker, Figma, Tableau, spreadsheets</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section achievements">
+        <div class="section-heading centered reveal">
+          <p class="eyebrow">Recognition</p>
+          <h2>Proof points beyond the code editor.</h2>
+        </div>
+        <div class="achievement-row">
+          <div class="achievement reveal">
+            <strong>NDTV</strong>
+            <span>Featured for cracking GSoC in first year of college.</span>
+          </div>
+          <div class="achievement reveal" data-delay="90">
+            <strong>HPAIR 2026</strong>
+            <span>Selected as a delegate for Harvard's Cambridge conference.</span>
+          </div>
+          <div class="achievement reveal" data-delay="180">
+            <strong>GDG</strong>
+            <span>Finished among Top 5 in a UI/UX hackathon.</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact">
+        <div class="contact-inner reveal">
+          <p class="eyebrow">Contact</p>
+          <h2>Let's build something focused, fast, and useful.</h2>
+          <p>
+            I am open to software engineering, open-source, and product-focused opportunities
+            where strong execution and thoughtful interfaces matter.
+          </p>
+          <div class="contact-links">
+            <a class="button primary" href="mailto:krishnadave829@gmail.com">krishnadave829@gmail.com</a>
+            <a class="button ghost" href="tel:+919998104049">+91 99981 04049</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <span>Krishna Dave</span>
+      <span>Full-stack developer - Open-source contributor</span>
+    </footer>
+
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
